@@ -1,0 +1,158 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700);
+
+body {overflow-x: hidden;font-family: 'Source Sans Pro', sans-serif;}
+p {font-size: 20px;}
+p.small {font-size: 16px;}
+a, a:hover, a:focus, a:active, a.active {outline: 0;color: #24abdc;}
+h1, h2, h3, h4, h5, h6 {text-transform: uppercase;font-family: 'Source Sans Pro', sans-serif;font-weight: 700;}
+
+hr.star-primary {margin: 25px auto 30px;padding: 0px 0px 30px 0px;max-width: 250px;border: 0;border-top: solid 5px;text-align: center;}
+hr.star-primary:after {content: "\f005";display: inline-block;position: relative;top: -.8em;padding: 0 .25em;font-family: FontAwesome;font-size: 2em;}
+hr.star-primary {border-color: #2c3e50;}
+hr.star-primary:after {color: #2c3e50;background-color: #fff;}
+.img-centered {margin: 0 auto;}
+
+
+
+
+header {text-align: center;color: #fff;background: url(../img/banner.jpg) no-repeat 0 0 scroll;background-size: cover;height: 803px;}
+header .container {padding-top: 100px;padding-bottom: 50px;}
+header img {display: block;margin: 0 auto 20px;}
+header .intro-text .name {display: block;text-transform: uppercase;font-family: 'Source Sans Pro', sans-serif;font-size: 2em;font-weight: 700;}
+header .intro-text .skills {font-size: 1.25em;font-weight: 300;}
+header .intro-text .download-app{display: block}
+.iphone{}
+.iphone img{}
+
+
+
+.navbar {text-transform: uppercase;font-family: 'Source Sans Pro', sans-serif;font-weight: 700;}
+.navbar a:focus {outline: 0;}
+.navbar .navbar-nav {letter-spacing: 1px;}
+.navbar .navbar-nav li a:focus {outline: 0;}
+.navbar-default, .navbar-inverse {border: 0;}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {color: #24abdc;}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {color: #24abdc;}
+.download-app > .btn-default {background-color: #fff;color: #24abdc;border: 1px solid #24abdc;margin: 20px 0px;padding: 15px 20px}
+.download-app > .btn-default > i {font-size: 24px;}
+.download-app > .btn-default > i > .fa-android {}
+.download-app > .btn-default > span{margin-left: 5px;font-size: 24px;font-weight: normal}
+
+
+
+
+#promotion{}
+.promo-item{}
+.promo-item i{font-size: 48px;}
+.promo-item h1{font-size: 24px;color: #24abdc;}
+.promo-item p{font-size: 16px}
+
+
+
+
+#founder{}
+.founder-item{}
+.founder-item img{}
+.founder-item h3{}
+.founder-item p{font-size: 16px}
+
+
+
+
+section {padding: 50px 0;}
+section h2 {margin: 0;font-size: 3em;}
+
+.btn-outline {margin-top: 15px;border: solid 2px #fff;font-size: 20px;color: #fff;background: 0 0;transition: all .3s ease-in-out;}
+.btn-outline:hover,.btn-outline:focus,.btn-outline:active,.btn-outline.active {border: solid 2px #fff;color: #24abdc;background: #fff;}
+.btn:focus, .btn:active, .btn.active {outline: 0;}
+
+
+
+
+.social-icon{}
+.social-icon ul{margin: 0 0 20px 0px;padding: 0;list-style: none}
+.social-icon ul li{display: inline;margin: 0px 50px}
+.social-icon ul li a{font-size: 32px;text-transform: uppercase;color: #2c3e50;text-decoration: none;}
+.social-icon ul li a span{margin-left: 5px}
+.social-icon ul li a i{font-size: 30px;}
+.social-icon ul li a:hover{color:#3A98D8;}
+.social-icon span .btn-default{background-color: #24abdc;color: #fff;border: 1px solid #24abdc;margin: 20px 0px;padding: 15px 20px}
+.social-icon span .btn-default i{font-size: 24px}
+.social-icon span .btn-default span{font-size: 24px;margin-left: 5px}
+
+
+
+
+footer {color: #fff;}
+footer .footer-below {padding: 25px 0;background-color: #233140;}
+.scroll-top {z-index: 1049;position: fixed;right: 2%;bottom: 2%;width: 50px;height: 50px;}
+.scroll-top .btn {width: 50px;height: 50px;border-radius: 100%;font-size: 20px;line-height: 28px;}
+.scroll-top .btn:focus {outline: 0;}
+
+
+
+@media(min-width:768px) {
+    header .container {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
+    header .intro-text .name {
+        font-size: 4.75em;
+    }
+
+    header .intro-text .skills {
+        font-size: 1.75em;
+    }
+    .navbar-fixed-top {
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-fixed-top.navbar-shrink {
+        padding: 10px 0;
+    }
+
+    .navbar-fixed-top.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+.social-icon ul li {margin: 0 30px;}
+}
+
+
+
+
+
+@media(max-width:767px) {
+    section {
+        padding: 75px 0;
+    }
+
+    section.first {
+        padding-top: 75px;
+    }
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+    .social-icon ul li a {font-size: 20px;}
+    .social-icon ul li {margin: 0 10px;}
+    .download-app > .btn-default {padding: 10px 5px;}
+    .download-app > .btn-default > span {font-size: 20px;}
+    .iphone img {width: 200px}
+    
+}
+
+
+
+
+
+
